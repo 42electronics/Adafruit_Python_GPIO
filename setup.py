@@ -17,7 +17,7 @@ except ImportError:
     from setuptools import setup, find_packages
 
 # Define required packages.
-requires = ['adafruit-pureio']
+requires = ['Adafruit-PureIO']
 
 # Assume spidev is required on non-windows & non-mac platforms (i.e. linux).
 if sys.platform != 'win32' and sys.platform != 'darwin':
